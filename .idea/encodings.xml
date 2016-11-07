@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_delete_black_24dp.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_delete_black_24dp.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_delete_black_24dp.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_delete_black_24dp.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/empty_message_layout_action.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_bag.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_bag.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_bag.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/analytics_global_config.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/app_tracker.xml" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

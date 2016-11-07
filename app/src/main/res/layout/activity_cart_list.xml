@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_cart_list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.allandroidprojects.ecomsample.options.CartListActivity">
+    <LinearLayout android:id="@+id/layout_items"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_weight="9.5"
+        android:orientation="vertical"
+                  android:visibility="gone">
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                                            android:id="@+id/recyclerview"
+                                            android:scrollbars="vertical"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+        <LinearLayout android:id="@+id/layout_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:elevation="30dp"
+                      android:background="@color/gen_black"
+                      android:visibility="gone">
+        <TextView android:id="@+id/text_action_bottom1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:background="@color/gen_white"
+                  android:text="Rs 8,750"
+                  android:textSize="14dp"
+                  android:textColor="@color/gen_black"
+                  android:textStyle="bold"
+                  android:gravity="center"/>
+
+        <TextView android:id="@+id/text_action_bottom2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:background="@color/colorPrimary"
+                  android:text="PAYMENT"
+                  android:textSize="14dp"
+                  android:textColor="@color/gen_white"
+                  android:textStyle="bold"
+                  android:gravity="center"/>
+    </LinearLayout>
+    <include android:id="@+id/layout_cart_empty"
+        layout="@layout/empty_message_layout_action"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item1"
+            android:icon="@drawable/ic_local_offer_black_24dp"
+            android:title="@string/item_1" />
+        <item
+            android:id="@+id/nav_item2"
+            android:icon="@drawable/ic_smartphone_black_24dp"
+            android:title="@string/item_2" />
+        <item
+            android:id="@+id/nav_item3"
+            android:icon="@drawable/ic_wc_black_24dp"
+            android:title="@string/item_3" />
+        <item
+            android:id="@+id/nav_item4"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="@string/item_4" />
+        <item
+            android:id="@+id/nav_item5"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="@string/item_5" />
+        <item
+            android:id="@+id/nav_item6"
+            android:icon="@drawable/ic_more_black_24dp"
+            android:title="@string/item_6" />
+    </group>
+
+    <item android:title="@string/my_profile">
+        <menu>
+            <item
+                android:id="@+id/my_orders"
+                android:icon="@drawable/ic_shopping_basket_black_24dp"
+                android:title="@string/my_orders" />
+            <item
+                android:id="@+id/my_cart"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="@string/my_cart" />
+            <item
+                android:id="@+id/my_wishlist"
+                android:icon="@drawable/ic_favorite_black_24dp"
+                android:title="@string/my_wishlist" />
+            <item
+                android:id="@+id/my_rewards"
+                android:icon="@drawable/ic_card_giftcard_black_24dp"
+                android:title="@string/my_rewards" />
+            <item
+                android:id="@+id/my_account"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="@string/my_account" />
+        </menu>
+    </item>
+
+    <item android:title="@string/help_support">
+        <menu>
+            <item
+                android:id="@+id/contact_us"
+                android:title="@string/contact_us" />
+            <item
+                android:id="@+id/terms_conditions"
+                android:title="@string/terms_conditions" />
+            <item
+                android:id="@+id/help_center"
+                android:title="@string/help_center" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_item_details"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.allandroidprojects.ecomsample.product.ItemDetailsActivity">
+  <ScrollView android:id="@+id/scrollbar"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="9.5"
+              android:scrollbars="none"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.facebook.drawee.view.SimpleDraweeView xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                                                   android:id="@+id/image1"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="200.0dp"
+                                                   fresco:placeholderImage="@color/stay_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Denim Shirt"
+                          android:textSize="16dp"
+                          android:textColor="@color/gen_black"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="8dp"
+                          android:text="Rs. 1,979"
+                          android:textSize="20dp"
+                          android:textColor="@color/gen_black"
+                          />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="FREE Delivery"
+                          android:textSize="12dp"
+                          android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView android:id="@+id/text_ratings"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:background="@color/green_light"
+                          android:paddingTop="2dp"
+                          android:paddingBottom="2dp"
+                          android:paddingLeft="6dp"
+                          android:paddingRight="6dp"
+                          android:text="4.3 *"
+                          android:textSize="12dp"
+                          android:textColor="@color/gen_white"
+                          android:textStyle="bold"/>
+
+                <TextView android:id="@+id/text_ratings_reviews"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="12dp"
+                          android:text="50 ratings \u0026 15 reviews"
+                          android:textSize="12dp"/>
+
+            </LinearLayout>/
+        <View android:layout_width="match_parent"
+              android:layout_height="@dimen/view_width_small"
+              android:background="@color/grey_light"
+              android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:weightSum="3">
+
+            <LinearLayout android:id="@+id/layout_action1"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:weightSum="2">
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_share_black_18dp"/>
+                <TextView android:id="@+id/text_action1"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:layout_marginLeft="8dp"
+                          android:text="Share"
+                          android:textSize="12dp"
+                          android:textColor="@color/gen_black"
+                          android:gravity="left"/>
+            </LinearLayout>
+
+            <View android:layout_width="@dimen/view_width_small"
+                  android:layout_height="match_parent"
+                  android:background="@color/grey_light"/>
+
+            <LinearLayout android:id="@+id/layout_action2"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:weightSum="2">
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_filter_none_black_18dp"/>
+                <TextView android:id="@+id/text_action2"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:layout_marginLeft="8dp"
+                          android:text="Similar"
+                          android:textSize="12dp"
+                          android:textColor="@color/gen_black"
+                          android:gravity="left"/>
+            </LinearLayout>
+
+            <View android:layout_width="@dimen/view_width_small"
+                  android:layout_height="match_parent"
+                  android:background="@color/grey_light"/>
+
+            <LinearLayout android:id="@+id/layout_action3"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:weightSum="2">
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_favorite_border_black_18dp"/>
+                <TextView android:id="@+id/text_action3"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:layout_marginLeft="8dp"
+                          android:text="Wishlist"
+                          android:textSize="12dp"
+                          android:textColor="@color/gen_black"
+                          android:gravity="left"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+              android:layout_height="@dimen/view_width_small"
+              android:background="@color/grey_light"
+              android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Details"
+                      android:textSize="16dp"
+                      android:textColor="@color/gen_black"/>
+            <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="8dp"
+                      android:text="\u2022 Regular fit, full sleeve"
+                      android:textSize="12dp"
+                      android:textColor="@color/gen_black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="\u2022 Fabric: Cotton"
+                android:textSize="12dp"
+                android:textColor="@color/gen_black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="\u2022 Pattern: printed"
+                android:textSize="12dp"
+                android:textColor="@color/gen_black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+   </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:elevation="30dp"
+        android:background="@color/gen_black">
+        <TextView android:id="@+id/text_action_bottom1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:background="@color/gen_white"
+                  android:text="ADD TO CART"
+                  android:textSize="14dp"
+                  android:textColor="@color/gen_black"
+                  android:textStyle="bold"
+                  android:gravity="center"/>
+
+        <TextView android:id="@+id/text_action_bottom2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:background="@color/colorPrimary"
+                  android:text="BUY NOW"
+                  android:textSize="14dp"
+                  android:textColor="@color/gen_white"
+                  android:textStyle="bold"
+                  android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

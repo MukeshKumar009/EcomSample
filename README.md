@@ -4,8 +4,10 @@ When ever I used to open any online shopping app, I wanted to know the the mecha
 
 Application has been designed using fresco library for image loading and caching. All new features like top eCommerce app has been added in this app. This app is best practice for Android Developers.
 
-Find my more tutorials here 
-Install EcomSample 
+[Find my more tutorials here ](http://allandroidprojects.blogspot.in/2016/11/ecomsample-sample-e-commerce-online.html)
+
+[Install EcomSample ](https://play.google.com/store/apps/details?id=com.allandroidprojects.ecomsample&hl=en)
+
 
 ###This app has below features:
 
@@ -21,6 +23,8 @@ Install EcomSample
 Note: Please consider the below points
 
 1.The images are downloading from this site: https://www.pexels.com, But you can provide your own server urls to load the image.
+
+
 2.Item description I have just hard coded only for showcase. 
 
 Please feel free to comment for any clarification or suggestion.

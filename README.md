@@ -2,7 +2,7 @@
 
 When ever I used to open any online shopping app, I wanted to know the the mechanism behind loading items, images, data which are not in some limited size. As an Android developer I can understand that many beginners would be thinking to make android app like flipkart, snapdeal or amazon etc. So here is the EcomSample app with complete source code available in github. Sample app is available on PlayStore.
 
-Application has been designed using fresco library for image loading and caching. All new features like top eCommerce app have been added in this app. This app is best practice for Android Developers.
+Application has been designed using [fresco](https://github.com/facebook/fresco) library for image loading and caching. All new features like top eCommerce app have been added in this app. This app is best practice for Android Developers.
 
 [Find my more tutorials here ](http://allandroidprojects.blogspot.in/2016/11/ecomsample-sample-e-commerce-online.html)
 
